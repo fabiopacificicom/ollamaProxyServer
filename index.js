@@ -23,7 +23,7 @@ const tokenCheck = (req, res, next) => {
 }
 
 app.use(tokenCheck);
-app.get('/api/models', (req, res) => {
+app.get('/api/tags', (req, res) => {
 
   // use fetch to make a get request to the api: http://localhost:11434/api/tags
 
